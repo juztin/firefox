@@ -1,28 +1,28 @@
 # firefox-dev
 Dockerized Firefox Developer Edition
 
-## Build
+### Build
 Clone the repo, or simply download the `Dockerfile`  
 
-### Firefox Release (38.0)
+##### Firefox Release (38.0)
 
 ```shell
 % docker build -t minty/firefox .
 ```
 
-### Firefox Developer (latest)
+##### Firefox Developer (latest)
 
 ```shell
 % docker build -f Dockerfile-dev -t minty/firefox:dev .
 ```
 
-### Firefox Nightly (41.0a1)
+##### Firefox Nightly (41.0a1)
 
 ```shell
 % docker build -f Dockerfile-nightly -t minty/firefox:nightly .
 ```
 
-## Run
+### Run
 
 Place something like the below into a script somewhere, `~/bin/firefox`:
 
